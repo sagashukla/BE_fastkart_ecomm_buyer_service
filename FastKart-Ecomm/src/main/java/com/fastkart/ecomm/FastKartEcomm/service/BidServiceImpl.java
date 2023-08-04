@@ -5,7 +5,6 @@ import com.fastkart.ecomm.FastKartEcomm.entity.Bid;
 import com.fastkart.ecomm.FastKartEcomm.entity.Product;
 import com.fastkart.ecomm.FastKartEcomm.exception.BuyerException;
 import com.fastkart.ecomm.FastKartEcomm.repository.BidRepository;
-import com.fastkart.ecomm.FastKartEcomm.repository.ProductBidDetails;
 import com.fastkart.ecomm.FastKartEcomm.repository.ProductDetailsRepository;
 import com.fastkart.ecomm.FastKartEcomm.utils.UtilsVerifyNumber;
 import org.springframework.beans.factory.annotation.Autowired;

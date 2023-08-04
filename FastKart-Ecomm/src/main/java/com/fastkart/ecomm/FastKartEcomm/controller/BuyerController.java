@@ -3,10 +3,8 @@ package com.fastkart.ecomm.FastKartEcomm.controller;
 import com.fastkart.ecomm.FastKartEcomm.dto.BidRequest;
 import com.fastkart.ecomm.FastKartEcomm.entity.Product;
 import com.fastkart.ecomm.FastKartEcomm.entity.ProductWithBids;
-import com.fastkart.ecomm.FastKartEcomm.repository.ProductBidDetails;
 import com.fastkart.ecomm.FastKartEcomm.service.BidService;
 import com.fastkart.ecomm.FastKartEcomm.service.ProductService;
-import com.fastkart.ecomm.FastKartEcomm.service.ProductServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -35,9 +33,9 @@ public class BuyerController {
         return new ResponseEntity<>(bidService.submitBit(request), HttpStatus.OK);
     }
 
+
     @GetMapping("/product")
     public ResponseEntity<List<ProductWithBids>> getProductWithBids(@RequestParam("productId") Integer productId){
         return new ResponseEntity<>(productService.getProductWithBids(productId), HttpStatus.OK);
-
     }
 }
