@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91058ab2-af0a-4b7b-b2e5-03031afd27ef" name="Changes" comment="Adding service and controller layer test cases">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/FastKartEcommApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/config/DefaultConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/controller/BuyerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/dto/AuthenticationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/dto/BidRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/dto/BuyerExceptionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/dto/TokenValidationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/entity/Bid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/entity/ProductWithBids.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/exception/AuthorizationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/exception/BuyerException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/exception/BuyerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/interceptor/AuthenticationInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/repository/BidRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/repository/ProductBidDetailsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/repository/ProductDetailsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/service/BidService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/service/BidServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/service/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/utils/UtilsConvertDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastkart/ecomm/FastKartEcomm/utils/UtilsVerifyNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastkart/ecomm/FastKartEcomm/FastKartEcommApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastkart/ecomm/FastKartEcomm/controller/BuyerControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastkart/ecomm/FastKartEcomm/service/BidServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastkart/ecomm/FastKartEcomm/service/ProductServiceImplTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TVPerennnFfvw0EFWhtZvXPqxi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sagashukla/Desktop/FastKart/Codebase/Backend/BE_fastkart_ecomm_buyer_service/FastKart-Ecomm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.fastkart.ecomm.FastKartEcomm.service" />
+      <recent name="com.fastkart.ecomm.FastKartEcomm.interceptor" />
+      <recent name="com.fastkart.ecomm.FastKartEcomm.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FastKartEcommApplication">
+    <configuration name="FastKartEcommApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fastkart.ecomm.FastKartEcomm.FastKartEcommApplication" />
+      <module name="FastKart-Ecomm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fastkart.ecomm.FastKartEcomm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in FastKart-Ecomm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastKart-Ecomm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BidServiceImplTest.submitBidSuccess_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastKart-Ecomm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fastkart.ecomm.FastKartEcomm.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fastkart.ecomm.FastKartEcomm.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fastkart.ecomm.FastKartEcomm.service.BidServiceImplTest" />
+      <option name="METHOD_NAME" value="submitBidSuccess_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyerControllerTest.getProductWithBids" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastKart-Ecomm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fastkart.ecomm.FastKartEcomm.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fastkart.ecomm.FastKartEcomm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.fastkart.ecomm.FastKartEcomm.controller.BuyerControllerTest" />
+      <option name="METHOD_NAME" value="getProductWithBids" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyerControllerTest.submitBid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastKart-Ecomm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fastkart.ecomm.FastKartEcomm.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fastkart.ecomm.FastKartEcomm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.fastkart.ecomm.FastKartEcomm.controller.BuyerControllerTest" />
+      <option name="METHOD_NAME" value="submitBid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FastKartEcommApplication" />
+        <item itemvalue="JUnit.All in FastKart-Ecomm" />
+        <item itemvalue="JUnit.BuyerControllerTest.submitBid" />
+        <item itemvalue="JUnit.BuyerControllerTest.getProductWithBids" />
+        <item itemvalue="JUnit.BidServiceImplTest.submitBidSuccess_Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91058ab2-af0a-4b7b-b2e5-03031afd27ef" name="Changes" comment="" />
+      <created>1691125373765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691125373765</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Setting up the buyer service">
+      <option name="closed" value="true" />
+      <created>1691126059284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691126059284</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Please find the commits below:&#10;1. Added buyer services. Submit bid, get all products by all seller and get prodcut details with all bids&#10;2. Added Interceptor class to authenticate the user.">
+      <option name="closed" value="true" />
+      <created>1691138418614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691138418614</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding service and controller layer test cases">
+      <option name="closed" value="true" />
+      <created>1691155299266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691155299266</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setting up the buyer service" />
+    <MESSAGE value="Please find the commits below:&#10;1. Added buyer services. Submit bid, get all products by all seller and get prodcut details with all bids&#10;2. Added Interceptor class to authenticate the user." />
+    <MESSAGE value="Adding service and controller layer test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding service and controller layer test cases" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FastKart_Ecomm$All_in_FastKart_Ecomm.ic" NAME="All in FastKart-Ecomm Coverage Results" MODIFIED="1691481889442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
