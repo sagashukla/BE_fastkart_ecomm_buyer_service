@@ -16,7 +16,7 @@ public interface ProductRepository extends CrudRepository<Product, Integer> {
     public List<ProductWithBids> getProductsBySeller(int sellerId);
 
     @Query(
-            value = "SELECT p.id as id, p.name as prdoct, p.created_at as createdAt, cat.category_name as categoryName, MAX(b.amount) as maxBidAmount FROM fastkart.product as p INNER JOIN fastkart.category as cat on cat.category_id = p.category_id INNER JOIN fastkart.bid as b on b.product_id = p.id GROUP BY p.id",
+            value = "SELECT p.id as id, p.name as name, p.created_at as createdAt, cat.category_name as categoryName, COALESCE(MAX(b.amount), 0) as maxBidAmount FROM fastkart.product as p INNER JOIN fastkart.category as cat on cat.category_id = p.category_id LEFT JOIN fastkart.bid as b on b.product_id = p.id GROUP BY p.id;",
             nativeQuery = true)
     List<ProductWithMaxBid> findAllProductWithMaxBidAmount();
 
